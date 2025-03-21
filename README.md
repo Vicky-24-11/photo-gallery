@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Photo Gallery
 
-## Getting Started
+A modern and responsive photo gallery application that works seamlessly across all platforms, including web browsers, Android, and iOS devices. The app provides a user-friendly interface for managing and viewing photos and albums.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Cross-Platform Compatibility**: Runs smoothly on all major web browsers (Chrome, Firefox, Safari, Edge) and mobile browsers on Android and iOS.
+- **Photo Management**: Add, delete, and organize photos into albums.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
+- **Offline Support**: Mock data ensures functionality even without an internet connection.
+- **Dynamic Updates**: Automatically syncs changes across multiple tabs using `localStorage`.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Vicky-24-11/photo-gallery.git
+   cd photo-gallery
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## Learn More
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Open the app in your browser:
+   ```
+   http://localhost:3000
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Web Browsers**: Open the app in any modern browser (Chrome, Firefox, Safari, Edge).
+- **Android/iOS**: Access the app through mobile browsers like Chrome, Safari, or any default browser on your device.
 
-## Deploy on Vercel
+## Technologies Used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Frontend**: React, Next.js, TypeScript
+- **UI Components**: Tailwind CSS
+- **Icons**: Lucide React
+- **State Management**: React Hooks
+- **Mock Data**: Simulated API calls for offline functionality
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Compatibility
+
+The Photo Gallery app is tested and verified to work on:
+
+- **Web Browsers**: Chrome, Firefox, Safari, Edge
+- **Mobile Browsers**: Chrome (Android), Safari (iOS), and other default browsers
+- **Devices**: Desktop, Android, iOS
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add feature-name"
+   ```
+4. Push to your branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Feel free to reach out if you have any questions or feedback!
