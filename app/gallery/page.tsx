@@ -137,7 +137,7 @@ export default function GalleryPage() {
         </Button>
       }
     >
-      <div className="space-y-6 p-4 pb-20">
+      <div className="space-y-6 p-4 pb-20 pt-8">
         <Tabs defaultValue="photos" className="w-full">
           <TabsList className="w-full grid grid-cols-2">
             <TabsTrigger value="photos" className="text-sm font-medium">

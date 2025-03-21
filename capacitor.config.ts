@@ -6,7 +6,7 @@ const config: CapacitorConfig = {
   webDir: 'out',
   bundledWebRuntime: false,
   server: {
-    url: 'http://192.168.1.150:3000',
+    url: 'http://192.168.1.149:3000',
     cleartext: true,
     androidScheme: 'https',
     allowNavigation: ['*']
